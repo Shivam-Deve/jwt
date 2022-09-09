@@ -1,0 +1,12 @@
+GET http://localhost:5800/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2hpdmFtIiwiaWF0IjoxNjYyNjc4OTIxfQ.f4sfMeA_XLeVe3HQCSF7sfZDPJLyt74xl8kVrEH4I7s
+
+
+###
+
+POST http://localhost:5800/login
+Content-Type : application/json
+
+{
+    "userName":"Shivam"
+}
